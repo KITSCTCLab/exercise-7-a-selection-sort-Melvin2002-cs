@@ -1,9 +1,9 @@
 from typing import List
 
-def swap(arr,int j,int k):
-  temp=arr[int j]
-  arr[int j]=arr[int k]
-  arr[int k]=temp
+def swap(arr,j,k):
+  temp=arr[j]
+  arr[j]=arr[k]
+  arr[k]=temp
 
 def selectionSort(array, size) -> List[int]:
   # Write your code here

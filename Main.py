@@ -9,9 +9,9 @@ def selectionSort(array, size) -> List[int]:
   # Write your code here
   if size==1:
     return array
-  execution=0
   for i in range(0,size-1):
     low=i
+    execution=0
     for j in range(i+1,size):
       if array[low]>array[j]:
         low=j

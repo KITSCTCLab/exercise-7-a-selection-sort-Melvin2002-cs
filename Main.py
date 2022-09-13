@@ -18,6 +18,7 @@ def selectionSort(array, size) -> List[int]:
         execution=1
     if execution!=0:
       swap(array,i,low)
+  print(array)
   
   
   

@@ -1,6 +1,6 @@
 from typing import List
 
-def swap(arr[],int j,int k):
+def swap(arr,int j,int k):
   temp=arr[int j]
   arr[int j]=arr[int k]
   arr[int k]=temp
